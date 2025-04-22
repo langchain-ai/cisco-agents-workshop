@@ -10,9 +10,9 @@ sys.path.append(str(project_root))
 
 import pytest
 from eval.email_dataset import email_inputs, expected_tool_calls
-from email_assistant.utils import format_messages_string
-from email_assistant.baseline_agent import overall_workflow
-from email_assistant.utils import extract_tool_calls
+from src.email_assistant.utils import format_messages_string
+from src.email_assistant.baseline_agent import overall_workflow
+from src.email_assistant.utils import extract_tool_calls
 
 from langsmith import testing as t
 
