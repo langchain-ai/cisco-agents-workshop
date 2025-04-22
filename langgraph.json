@@ -1,0 +1,20 @@
+{
+    "dockerfile_lines": [],
+    "graphs": {
+      "baseline_agent": "./src/email_assistant/baseline_agent.py:email_assistant",
+      "email_assistant": "./src/email_assistant/email_assistant.py:email_assistant",
+      "email_assistant_hitl": "./src/email_assistant/email_assistant_hitl.py:email_assistant",
+      "email_assistant_hitl_memory": "./src/email_assistant/email_assistant_hitl_memory.py:email_assistant"
+    },
+    "python_version": "3.11",
+    "env": "./.env",
+    "dependencies": [
+      "."
+    ],
+    "store": {
+        "index": {
+            "dims": 1536,
+            "embed": "openai:text-embedding-3-small"
+        }
+    }
+  }
